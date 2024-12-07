@@ -36,3 +36,4 @@ git push -u origin main
 psql --username=freecodecamp --dbname=postgres
 psql -U postgres < students.sql
 psql --username=freecodecamp --dbname=postgres
+quit
