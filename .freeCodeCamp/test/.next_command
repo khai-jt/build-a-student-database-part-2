@@ -30,3 +30,7 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo hello SQL
+git remote set-url origin https://github.com/khai-jt/build-a-student-database-part-2.git
+git branch -M main
+git push -u origin main
+psql --username=freecodecamp --dbname=postgres
