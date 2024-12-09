@@ -82,3 +82,4 @@ ls --color=auto
 touch student_info.sh
 chmod +x student_info.sh
 which bash
+./student_info.sh
